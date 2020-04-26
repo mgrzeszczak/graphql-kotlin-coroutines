@@ -1,0 +1,8 @@
+logging:
+  level:
+    graphql.execution.ExecutionStrategy: INFO
+
+graphql:
+  servlet:
+    websocket:
+      enabled: true

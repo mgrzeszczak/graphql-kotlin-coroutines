@@ -1,0 +1,13 @@
+type Offer {
+    id: String!
+}
+
+type Product {
+    id: String!
+    name: String!
+    offer: Offer!
+}
+
+type Query {
+    getProductById(id: String): Product!
+}
